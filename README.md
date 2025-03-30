@@ -1,0 +1,1 @@
+The Meal Suggestion App allows users to input the time of day (e.g., breakfast, lunch, dinner) and receive meal suggestions based on the input. The app also includes a reset button to clear the entered time and meal suggestions.
