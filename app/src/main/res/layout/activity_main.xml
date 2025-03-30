@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/suggestionText"
+        android:layout_width="170dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="139dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Display suggestion"
+        android:textAlignment="center"
+        android:textColor="#F0EBEB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="79dp"
+        android:backgroundTint="#D3BDBD"
+        android:text="Reset Button"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/suggestionButton"
+        android:layout_width="127dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="79dp"
+        android:backgroundTint="#D1BABA"
+        android:text="Suggestion Button"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="701dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="text"
+        android:text="Time of the day"
+        android:textColor="#E9E8E8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="429dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="269dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/meal_5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
